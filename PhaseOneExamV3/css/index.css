@@ -1,0 +1,354 @@
+﻿/* initial config */
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(/content/fonts/lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(/content/fonts/lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(/content/fonts/lato/Lato-Bold.ttf);
+}
+
+/* -------------- */
+
+body {
+
+    font-family: Lato-Light;
+    margin: 0px;
+    display: flex;
+
+}
+
+#header-sidebar-header,
+#header-sidebar-items {
+
+    display: none;
+
+}
+
+#sidebar,
+#header-sidebar-items {
+
+    background-color: #2a2d33;
+    width: 250px;
+    height: 100vh;
+
+}
+
+#sidebar-header > h2,
+#header-sidebar-header > h2 {
+
+    margin: 0px;
+    padding-left: 32.5px;
+    padding-top: 35px;
+    color: white;
+
+}
+
+#sidebar-header,
+#header-sidebar-header {
+
+    background-color: lightslategrey;
+    width: 250px;
+    height: 100px;
+
+}
+
+#header-content-container {
+
+    width: 100%;
+    height: 100px;
+
+}
+
+#header {
+   
+    background-color: #e2e4e7;
+    width: 100%;
+    height: 100px;
+
+}
+
+#sidebar-items > ul,
+#header-sidebar-items > ul {
+
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+
+#sidebar-items > ul > li,
+#header-sidebar-items > ul > li {
+
+    display: flex;  
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: dimgray;
+    width: 250px;   
+    height: 75px;   
+
+}
+
+#sidebar-items > ul > li > div:first-child,
+#header-sidebar-items > ul > li > div:first-child {
+
+    width: 210px;
+    height: 75px;
+
+}
+
+#sidebar-items > ul > li > div:nth-child(2),
+#header-sidebar-items > ul > li > div:nth-child(2) {
+
+    background-color: gold;
+    width: 40px;
+    height: 75px;
+    margin-left: auto;
+    display: none;
+
+}
+
+#sidebar-items > ul > li > div > a,
+#header-sidebar-items > ul > li > div > a {
+
+    text-decoration: none;    
+    font-size: 16pt;
+    position: relative;
+    left: 32.5px;
+    top: 22.5px;
+
+}
+
+#header > h1 {
+
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+    top: 31px;
+    left: 35px;
+
+}
+
+.sidebar-items-background-color {
+
+    background-color: floralwhite;
+
+}
+
+.font-color-gray {
+
+    color: lightgray;
+
+}
+
+.font-color-black {
+
+    color: black;
+
+}
+
+.visible {
+
+    display: block;
+
+}
+
+/* media queries section */
+
+/* --------- iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+    #sidebar {
+
+        display: none;
+
+    }
+
+    #header-sidebar-header {
+
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 650px;
+        width: 340px;
+
+    }
+
+    #header-sidebar-items {
+
+        position: absolute;
+        left: 650px;
+        display: none;
+        width: 340px;
+
+    }
+
+    #header-sidebar-items > ul > li {
+
+        width: 340px;
+
+    }
+
+    #header-sidebar-items {
+
+        height: 227px;
+
+    }
+
+}
+/* --------------------------------------- */
+
+/* ---------- iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    #sidebar {
+
+        display: none;
+
+    }
+
+    #header-sidebar-header {
+
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 600px;
+        width: 340px;
+
+    }
+
+    #header-sidebar-items {
+
+        position: absolute;
+        left: 600px;
+        display: none;
+        width: 340px;
+
+    }
+
+    #header-sidebar-items > ul > li {
+
+        width: 340px;
+
+    }
+
+    #header-sidebar-items {
+
+        height: 227px;
+
+    }
+
+}
+/* --------------------------------------- */
+
+/* -------- iPhone 6 (landscape) --------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2){
+
+
+
+    #sidebar {
+
+        display: none;
+
+    }
+
+    #header-sidebar-header {
+
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 585px;
+        width: 340px;
+
+    }
+
+    #header-sidebar-items {
+
+        position: absolute;
+        left: 585px;
+        display: none;
+        width: 340px;
+
+    }
+
+    #header-sidebar-items > ul > li {
+
+        width: 340px;
+
+    }
+
+    #header-sidebar-items {
+
+        height: 227px;
+
+    }
+
+}
+/* --------------------------------------- */
+
+
+/* --------- iPhone 6 (portrait) --------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2){
+
+    body {
+
+        font-size: 17pt;
+
+    }
+
+    #sidebar {
+
+        display: none;
+
+    }
+
+    #header {
+  
+       height: 120px;
+
+    }
+
+    #header-sidebar-header {
+
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 485px;
+        width: 445px;
+        height: 120px;
+
+    }
+
+    #header-sidebar-items {
+
+        position: absolute;
+        left: 485px;
+        display: none;
+        width: 445px;       
+
+    }
+ 
+    #header-sidebar-items > ul > li {
+
+      width: 445px;
+      height: 100px;
+
+    }
+
+    #header-sidebar-items {
+
+        height: 300px;
+
+    }
+
+}
+/* --------------------------------------- */
+
+/* --------------------- */

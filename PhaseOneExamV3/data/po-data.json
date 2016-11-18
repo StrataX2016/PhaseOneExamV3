@@ -1,0 +1,29 @@
+﻿{
+  "purchaseorders": [
+    {
+      "id": "1",
+      "suppliername": "Test Supplier 1",
+      "buildingdisplay": "4-10 DARLING STREET KENSINGTON",
+      "gross": "$2,033"
+    },
+    {
+      "id": "2",
+      "suppliername": "Test Supplier 2",
+      "buildingdisplay": "14 GREY STREET KEIRAVILLE",
+      "gross": "$2,500"
+    },
+    {
+      "id": "3",
+      "suppliername": "Test Supplier 3",
+      "buildingdisplay": "2 ELLIOT PLACE HILLSDALE",
+      "gross": "$2,036"
+    },
+    {
+      "id": "4",
+      "suppliername": "Test Supplier 4",
+      "buildingdisplay": "5 PHILLIP STREET ROSELANDS",
+      "gross": "$2,196"
+    }
+  ]
+}
+

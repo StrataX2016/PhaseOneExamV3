@@ -1,0 +1,77 @@
+﻿{
+  "buildings": [
+    {
+      "id": "000001",
+      "strataplannumber": "10245",
+      "buildingdisplay": "4-10 DARLING STREET KENSINGTON",
+      "postcode": "2033",
+      "localgovernment": "Randwick",
+      "numberoflots": "21",
+      "stratamanager": "Jessica Grant"
+    },
+    {
+      "id": "000002",
+      "strataplannumber": "10383",
+      "buildingdisplay": "14 GREY STREET KEIRAVILLE",
+      "postcode": "2500",
+      "localgovernment": "Wollongong",
+      "numberoflots": "8",
+      "stratamanager": "Stephanie W. Gough"
+    },
+    {
+      "id": "000003",
+      "strataplannumber": "1040",
+      "buildingdisplay": "2 ELLIOT PLACE HILLSDALE",
+      "postcode": "2036",
+      "localgovernment": "Botany",
+      "numberoflots": "6",
+      "stratamanager": "Paul Kingsman"
+    },
+    {
+      "id": "000004",
+      "strataplannumber": "10492",
+      "buildingdisplay": "5 PHILLIP STREET ROSELANDS",
+      "postcode": "2196",
+      "localgovernment": "Canterbury",
+      "numberoflots": "21",
+      "stratamanager": "Ryan Hewit"
+    },
+    {
+      "id": "000005",
+      "strataplannumber": "10778",
+      "buildingdisplay": "41 NELSON STREET PENSHURST",
+      "postcode": "2222",
+      "localgovernment": "Hurstville",
+      "numberoflots": "8",
+      "stratamanager": "James Cheng"
+    },
+    {
+      "id": "000006",
+      "strataplannumber": "1085635",
+      "buildingdisplay": "31 SHOALHAVEN STREET KIAMA",
+      "postcode": "2533",
+      "localgovernment": "Kiama",
+      "numberoflots": "8",
+      "stratamanager": "Tanya W. Edwards"
+    },
+    {
+      "id": "000007",
+      "strataplannumber": "11146",
+      "buildingdisplay": "1 BROWNLEE STREET MANGERTON",
+      "postcode": "2500",
+      "localgovernment": "Wollongong",
+      "numberoflots": "5",
+      "stratamanager": "Stephanie W. Gough"
+    },
+    {
+      "id": "000008",
+      "strataplannumber": "11304",
+      "buildingdisplay": "28 STATION STREET MORTDALE",
+      "postcode": "2223",
+      "localgovernment": "Hurstville",
+      "numberoflots": "8",
+      "stratamanager": "Jack Liu"
+    }
+  ]
+}
+

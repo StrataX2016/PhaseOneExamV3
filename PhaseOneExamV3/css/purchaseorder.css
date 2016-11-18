@@ -1,0 +1,266 @@
+﻿#nav-items {
+
+    display: flex;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+
+}
+
+.btn {
+
+    width: 150px;
+    height: 45px;
+    font-size: 16pt;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    background-color: Highlight;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.btn-edit, .btn-delete {
+
+    background-color: ghostwhite;
+
+}
+
+#btn-add {
+
+    background-color: gold;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.btn > div {
+
+    position: relative;
+    left: 10px;
+    top: 7px;
+
+}
+
+.btn > img {
+
+    float: left;
+
+}
+
+img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+#nav-items, #po-content {
+
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+#po-total-gross {
+
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 16pt;
+    font-weight: bolder;
+
+}
+
+#po-content > div {
+
+    margin: 10px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    background-color: Highlight;
+    width: 95%;
+
+}
+
+
+#po-content > div > div:nth-child(5) {
+
+    display: flex;
+
+}
+
+#po-content > div > div:first-child,
+#po-content > div > div:nth-child(2),
+#po-content > div > div:nth-child(3),
+#po-content > div > div:nth-child(4),
+#po-content > div > div:nth-child(5) {
+
+    font-size: 15pt;
+
+}
+
+#po-content > div:hover {
+
+    background-color: gold;
+    cursor: pointer;
+
+}
+
+#po-content {
+
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    overflow-y: scroll;
+    height: 650px;
+
+}
+
+#po-content > div > div {
+
+    margin: 10px;  
+    font-weight: bolder;  
+
+}
+
+#po-content > div > div:first-child {
+
+    height: 20px;
+    width: 97%;
+    background-color: midnightblue;   
+
+}
+
+.modal {
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+.modal-footer {
+
+    display: flex;
+    padding: 2px 16px;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.modal-header {
+
+    padding: 2px 16px;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.modal-body {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2px 16px;
+    font-size: 16pt;
+
+}
+
+.modal-body > div {
+
+    margin: 15px;
+
+}
+
+.modal-content input {
+
+    font-size: 16pt;
+
+}
+
+.modal-content {
+
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;    
+
+}
+
+.btn-modal {
+
+    width: 80px;
+    height: 30px;
+    font-size: 14pt;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    background-color: midnightblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.btn-modal > div {
+
+    margin: 5px;
+
+}
+
+.close {
+
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.modal-body > div > input {
+
+    width: 100%;
+
+}
+
+
+@-webkit-keyframes animatetop {
+
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+
+}
+
+@keyframes animatetop {
+
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+
+}

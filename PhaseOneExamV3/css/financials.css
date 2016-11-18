@@ -1,0 +1,66 @@
+﻿#fin-container {
+
+    display: flex;
+
+}
+
+#fin-items {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#fin-items {
+
+    height: 89.5vh;
+    width: 17%;
+    background-color: ghostwhite;
+
+}
+
+#fin-content {
+
+    height: 89.5vh;
+    width: 83%;
+
+}
+
+#fin-items > div {
+
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    height: 100px;
+
+}
+
+
+#fin-items > div > a {
+    
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+    top: 30px;
+    font-size: 18pt;
+    text-decoration: none;
+
+}
+
+#fin-items > div > img {
+
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    float: left;
+    width: 50px;
+    height: 50px;
+
+}
+
+.fin-items-background-color {
+
+    background-color: lightgray;
+
+}

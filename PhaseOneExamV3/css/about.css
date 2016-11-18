@@ -1,0 +1,71 @@
+﻿body {
+
+}
+
+#about-content-image {
+
+    background-image: url('../content/images/ms-logo-01.png');
+    width: 32.5%;
+    height: 300px;
+
+}
+
+#about-content-text {
+
+    background-color: indigo;
+    width: 67.5%;
+    height: 300px;
+
+}
+
+#about-content {
+
+    display: flex;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 300px;
+
+}
+
+#about-logos {
+
+    display: flex;
+    background-color: gainsboro;
+    width: 100%;
+    height: 250px;
+
+}
+
+#about-logos > img {
+
+    position: relative;
+    top: 35px;
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+
+}
+
+#about-logos > img:nth-child(4) {
+
+    width: 115px;
+
+}
+
+#about-logos > img:last-child {
+
+    width: 250px;
+
+}
+
+p {
+    position: relative;
+    font-size: 23pt;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 50px;
+    text-align: justify;
+    line-height: 1.5;
+    color: lightblue;
+}
